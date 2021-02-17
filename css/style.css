@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Snake";
+    src: url("SnakeChan-MMoJ.ttf");
+}
+body {
+    background-color: rgb(221, 220, 220);
+}
+h1 {
+    text-align: center;
+    font-family: "Snake";
+}
+h5 {
+    line-height: 0.1em;
+    text-align: justify;
+    width: [width of img];
+}
+img {
+    display: block;
+    margin: auto;
+}
+.start {
+    text-align: middle;
+}
+button.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: 3px solid green; 
+  }
+canvas {
+    border-radius: 1em;
+    background-color: #ffffff;
+    width: 400px;
+    height: 400px;
+    border: 1px; 
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Snake";
+}
+.coloranimation {
+    animation: color-change 1s infinite;
+}
+  
+  @keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+}
