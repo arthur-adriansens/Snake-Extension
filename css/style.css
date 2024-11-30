@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Snake";
-    src: url("./style/SnakeChan-MMoJ.ttf");
+    src: url("/css/SnakeChan-MMoJ.ttf");
 }
 
 body {
